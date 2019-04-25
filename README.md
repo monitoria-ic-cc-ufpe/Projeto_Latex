@@ -1,4 +1,4 @@
-<h1>Instruções</h1>
+﻿<h1>Instruções</h1>
 
 Neste projeto, você deverá fazer um documento sobre uma das disciplinas do CIn. Seu documento deve ser feito em LaTeX e usar o template exemplo disponível no Overleaf. O trabalho deve falar sobre uma das disciplinas do CIn-UFPE. A lista de disciplinas que podem ser escolhidas está presente no site da monitoria (http://cin.ufpe.br/~if668).<br>
 
@@ -19,3 +19,6 @@ A submissão deve ser feita via pull request neste repositório. Sua submissão 
 - fjclf.pdf
 - fjclf.tex
 - fjclf.bib
+
+
+Os critérios de correção do projeto estão disponíveis no arquivo Critérios_Latex.pdf neste repositório.
