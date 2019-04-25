@@ -21,4 +21,4 @@ A submissão deve ser feita via pull request neste repositório. Sua submissão 
 - fjclf.bib
 
 
-Os critérios de correção do projeto estão disponíveis no arquivo Critérios_Latex.pdf neste repositório.
+Os critérios de correção do projeto estão disponíveis no arquivo <a href="https://github.com/monitoria-ic-cc-ufpe/Projeto_Latex/blob/master/Crit%C3%A9rios%20LaTeX.pdf">Critérios_Latex.pdf</a> neste repositório.
