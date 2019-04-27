@@ -14,6 +14,10 @@ O documento que você irá produzir deve ter duas páginas, incluindo todo o tex
 
 - Referências: pelo menos três referências oficiais da disciplina. Essas referências devem ser citadas a partir do texto e ficar armazenadas em um arquivo .bib. 
 
+O documento criado deve conter, em quaisquer seções exceto a seção "Referências", pelo menos:
+- Uma imagem
+- Uma tabela
+
 A submissão deve ser feita via pull request neste repositório. Sua submissão deve consistir em três arquivos, seu_login.pdf, seu_login.tex e seu_login.bib. Por exemplo, se o seu login é fjclf, sua submissão deve incluir <b>dentro de uma pasta nomeada com o seu login</b> os arquivos:
 
 - fjclf.pdf
