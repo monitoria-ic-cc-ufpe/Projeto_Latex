@@ -1,0 +1,73 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+
+\title{IF685 - Gerenciamento de Dados e Informação}
+\author{Pedro Jorge Lima da Silva (pjls2@cin.ufpe.br)}
+\date{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage[brazilian]{babel}
+
+\usepackage[a4paper,bindingoffset=0.2cm,%
+            left=3cm,right=3cm,top=3cm,bottom=3cm,%
+            footskip=.25cm]{geometry}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\maketitle
+
+\section{Introdução}
+
+A disciplina de Gerenciamento de Dados e Informação(GDI) é ministrada para os alunos dos cursos de Ciência da Computação e Engenharia da Computação, possuindo disciplina equivalente para os alunos de Sistemas de Informação, chamada Banco de Dados.
+
+GDI está relacionada principalmente com a área de sistemas da informação dentro do universo das ciências da computação. Segundo \cite{SBD}, abrange diversos assuntos importantes tais como:
+
+\begin{itemize}
+    \item \textbf{Modelagem de Dados}: aqui são apresentados os principais conceitos de modelagem de dados, tais como construção de mini-mundo, modelagem conceitual, modelagem lógica e modelagem física, que embasam a construção de um banco de dados(BD);
+    
+    \item \textbf{Banco de Dados Relacionais}: é apresentado o modelo entidade - relacionamento e  a linguagem SQL, utilizada para programar bancos de dados baseados nas modelagens realizadas;
+    
+    \item \textbf{Banco de Dados Objeto-relacionais}: são apresentados os conceitos da evolução dos  sistemas relacionais para os sistemas objetos-relacionais que mesclam entidade-relacionamento com o paradigma de programação de orientação à objetos, utilizando a linguagem de 4ª Geração chamada PL/SQL;
+    
+    \item \textbf{Dados Semi-estruturados}: formas de dados que não estão de acordo com a modelagem estabelecida para um banco de dados e como fazer com que eles sejam entendidos pelo BD utilizando linguagens de marcadores como XML para realizar o intermédio; 
+    
+    \item \textbf{Aplicações}: São vistas aplicações de bancos de dados com atividades que visam exemplificar na prática os conteúdos vistos. Exemplos destas aplicações podem ser vistas em \cite{SBD2}
+    
+\end{itemize}
+
+Atualmente, a disciplina é ministrada pelos professores Robson Fidalgo, para os alunos de Engenharia da Computação, e Valéria Times, para os alunos de Ciências da Computação, com os horários mostrados na Figura \ref{horarioGDI}
+
+\begin{figure}[ht]
+\centerline{\includegraphics[width=130mm]{IC-GDI.png}}
+\caption{Horários da Disciplina. Fonte: Site SecGrad - Cin \cite{SecGRad}}
+\label{horarioGDI}
+\end{figure}
+
+\section{Relevância}
+Segundo \cite{SQLcp}, todo sistema computacional parte do princípio de aceitar entrada de dados, processá-los e em seguida gerar uma saída. Com a evolução da computação, verificou-se que além de gerar a saída, era necessário gerar um histórico dos dados que entraram ou que saíram e até mesmo um histórico dos processamentos realizados. Desse fator surge a necessidade de estudar as estruturas de dados e de sistemas que possam armazenar tais informações atendendo requisitos como segurança e validade desses dados.
+
+Atualmente, com o grande crescimento de áreas como \textit{big data}, \textit{Analytics}, armazenamento de dados em nuvem e internet das coisas, o conhecimento sobre estrutura de dados, modelagens de sistemas e bancos de dados tem se tornado cada vez mais essencial para a formação de um profissional mais completo em computação. Isso possibilita que, tendo um conhecimento mais amplo dos sistemas, o profissional possa desenvolver soluções mais integradas e complexas para empresas e para o consumidor individual.
+
+Segundo \cite{SGBD}, nem sempre a utilização de um Sistema de Gerenciamento de Banco de Dados será útil, logo, é preciso conhecê-lo para saber as possibilidades de aplicações bem como saber onde ele pode ser substituído por outros sistemas ou outras estruturas de forma a atender melhor os requisitos do cliente.
+
+\section{Relação com outras disciplinas}
+\begin{table}[ht]
+\begin{tabular}{|l|p{7cm}|}
+\hline
+\textbf{Código e Nome da Disciplina}     & \textbf{Sobre a disciplina}                                                                                                                                          \\ \hline
+IF672 - Algoritmos e Estrutura de Dados  & Essa disciplina é pré-requisito para GDI para os alunos de Ciências da Computação e Engenharia da Computação                                                         \\ \hline
+IF976 - Banco de Dados                   & Disciplina com os mesmos assuntos que GDI no curso de Sistemasda Informação                                                                                          \\ \hline
+IF983 - Sistemas de Apoio à Decisão      & Ministrada em Sistemas da Informação, a disciplina utiliza conceitos de bancos de dados para estudar construir sistemas que auxiliam tomadas de decisões em empresas \\ \hline
+IF985 - Projeto de Sistema de Informação & Desenvolvimento de projetos de Sistema de Informação utilizando conceitos práticos de Bancos de Dados e SGBDs                                                        \\ \hline
+F991- Administração de Bancos de Dados   & Trabalha conceitos teóricos e práticos sobre o gerenciamento de SGBDs. É oferetada em Sistemas da Informação                                                         \\ \hline
+\end{tabular}
+\end{table}
+
+
+\bibliographystyle{plain}
+\bibliography{pjls2.bib}
+
+\end{document}
