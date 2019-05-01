@@ -1,0 +1,63 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+
+\title{IF793 - Projeto e Implementação de Jogos 2D}
+\author{Luís Carlos Lacerda Durans}
+\date{Abril 2019}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage[portuguese]{babel}
+\usepackage{dirtytalk}
+\usepackage{tabularx}
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\begin{document}
+
+\maketitle
+
+\section{Introdução}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{maplr.png}
+\caption{Jogo em 2D \citep{maple}}
+\label{fig:maplr}
+\end{figure}
+
+\noindent A disciplina de Projeto e Implementação de Jogos 2D fornece o conhecimento básico para o desenvolvimento de jogos em duas dimensões. O conteúdo da disciplina é amplo e seus tópicos relevantes podem ser enunciados como a seguir:
+
+\begin{itemize}
+\item \textbf{\textit{Game Design}}: É a parte da composição que estipula o conceito do jogo a ser desenvolvido, em outras palavras, a parte projetista. Geralmente envolve a área que demonstra o porquê aquele jogo está sendo feito, qual o seu público alvo e a que mercado aquele tipo de jogo está sendo atribuído.
+\end{itemize}
+\begin{itemize}
+\item \textbf{\textit{Manipulação Gráfica}}: É a parte do processo de criação de um jogo que estuda o comportamento gráfico do produto, ou seja, onde é programada e desenvolvida a sua parte gráfica.
+\end{itemize}
+\begin{itemize}
+\item \textbf{\textit{Arquitetura de Jogos}}: É o conjunto das partes, básicamente a \say{planta} de um jogo, nesse tópico se estuda as diversas extensões do desenvolvimento do jogo e suas interligações, seja sua parte gráfica, parte projetista, parte da programação, marketing e etc. 
+\end{itemize}
+
+\section{Relevância}
+\begin{enumerate}
+    \item \textbf\textit {\textbf{Pontos positivos:}}
+    \\ Essa disciplina fornece ao aluno uma ampla visão acerca das diversas áreas de trabalho no mercado de jogos, o que acaba por incentivar quem está cursando a se envolver com outras modalidades da computação. Por interligar as diferentes áreas com um propósito em comum, geralmente, esse tipo de disciplina favorece o trabalho em grupo, beneficiando a relação pessoa com pessoa.
+    \item \textbf\textit {\textbf{Pontos negativos:}}
+    \\ Por depender demais da relação com as outras áreas, essa disciplina acaba desfavorecendo a prática individual, que apesar de ser menos requerida no mercado, pode ser vista como um \say{isolamento} por parte daqueles que não se habituaram ou não possuem interesses nas outras áreas de conhecimento.
+\end{enumerate}
+
+\section{Relação com outras disciplinas}
+
+\begin{table}[htbp]
+\centering
+\begin{tabularx}{\linewidth}{|l|X|}
+\hline
+\multicolumn{1}{|c|}{\textit{\textbf{Disciplina}}} & \multicolumn{1}{c|}{\textit{\textbf{Relação}}}  \tabularnewline \hline
+IF680 - Processamento Gráfico \citep{pgcin} & A parte de Manipulação Gráfica é uma das áreas mais requisitadas no processo de criação de um jogo, onde se usa o conhecimento de Processamento Gráfico no auxílio da programação e construção do motor gráfico de um jogo. \tabularnewline \hline    
+IF687 - Introdução à Multimídia \citep{imcin} & Essa disciplina fornece a quem cursa conceitos sobre: Sons no computador, animações e vídeos no computador. Essas concepções são essenciais na elaboração de um jogo, pois fazem parte das características primárias do jogo (Som, imagem e jogabilidade).\tabularnewline \hline 
+\end{tabularx}
+\label{table:compa}   
+\end{table}
+
+\bibliographystyle{unsrt}
+\bibliography{lcld}
+\end{document}
