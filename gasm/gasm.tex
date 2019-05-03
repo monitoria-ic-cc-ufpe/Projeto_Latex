@@ -1,0 +1,49 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+
+\title{IF768 - Teoria dos Grafos}
+\author{Gabriel Meireles}
+\date{April 2019}
+\usepackage{amsmath}
+\usepackage{natbib}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage[brazil]{babel}
+\usepackage{url}
+
+\begin{document}
+
+\maketitle
+
+\section{Introdução}
+
+A Teoria dos Grafos, um dos principais ramos da matemática discreta, se baseia no estudo dos grafos. Os grafos, por sua vez, possuem esse nome, pois podemos representá-los graficamente,\citep{book:3539} o que nos ajuda a compreender suas propriedades. Porém, afinal, o que é um grafo? \\
+\indent Um grafo G é o par ordenado \((V(G), E(G))\) tal que \(V(G)\) é o conjunto dos vértices e \(E(G)\) é o conjunto, disjunto de \(V(G)\), das arestas, juntos com uma \textit{função de incidência} \(\psi_G\) que associa cada aresta de G com um par \textbf{não ordenado} de vértices.\citep{book:3539} Alguns outros autores não usam da noção de \(\psi_G\), e definem: $E(G) \subseteq \binom{V(G)}{2}$\citep{book:3555} ou que, simplesmente, E(G) são pares de vértices.\citep{POTI}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.32]{exemplo.png}\citep{book:3539}
+\caption{Note que o papel de \(\psi_G\) é associar uma aresta a dois vértices.}
+\label{fig:grafo}
+\end{figure}
+
+\section{Relevância}
+Muitos problemas da vida real podem ser descritos como um conjunto de vértices e um conjunto de linhas determinada por alguns pares de pontos e, por isso, essa disciplina é relevante para o curso de Ciência da Computação. Um dos primeiros exemplos icônicos foi o das Sete Pontes de Königsberg. Esse problema, resolvido pelo matemático Leonhard Euler, consistia em saber se era possível atravessar as sete pontes sem repetir nenhuma delas. Euler mostrou que, de fato, era impossível realizar tal façanha. Um segundo problema poderia ser como classificar como mais relevante diferentes sites que tratam de um mesmo assunto.\citep{prep}\\
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.30]{Ponte.png}\citep{wika}
+\caption{Pontes de Königsberg. Perceba como facilitamos a descrição do problema através de pontos e linhas.}
+\label{fig:ponte}
+\end{figure}
+\section{Relação com outras disciplinas}
+
+\begin{table}[!htb]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+IF672-Algoritmos e Estrutura de Dados & \begin{tabular}[c]{@{}l@{}}Muitas das aplicações dessa\\ disciplina se fundamentam\\ na teoria dos grafos, como\\ por exemplo o algoritmo\\ de Dijkstra\end{tabular} \\ \hline
+IF689-Informática Teórica & \begin{tabular}[c]{@{}l@{}}Ao trabalharmos com\\ maquinas de Turing, as\\ noções de grafos são \\ de extrema importância.\end{tabular} \\ \hline
+\end{tabular}
+\end{table}
+\bibliographystyle{plain}
+\bibliography{gasm}
+\end{document}
