@@ -1,0 +1,54 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{tabu}
+\usepackage{graphicx}
+\usepackage[rightcaption]{sidecap}
+\usepackage{dirtytalk}
+
+\title{ET586 - Estatística e Probabilidade para Computação}
+\author{Gustavo Farani de Farias}
+\date{Recife, 4 de Maio de 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{Introdução}
+A estatística pode ser definida como ``a parte da metodologia da Ciência que tem por objetivo a coleta, redução, análise e modelagem dos dados" \cite{bussab}. Ela representa uma ferramenta essencial em qualquer ramo de estudo que envolva o exame de quantidades massivas de dados: geografia, economia, psicologia, química, física, medicina e ciência da computação são alguns exemplos. Mais especificamente, conforme pontua Urdan \cite{urdan}, a estatística permite:
+
+\begin{itemize}
+    \item Centralizar a experiência típica de um conjunto de pessoas, para além das particularidades em nível individual;
+    \item Condensar lotes gigantescos de dados em resumos numéricos;
+    \item Identificar as diferenças mais marcantes existentes entre subconjuntos distintos de um mesmo domínio;
+    \item Investigar como diferentes aspectos (ou variáveis) de um sistema se correlacionam entre si.
+\end{itemize}
+
+\begin{SCfigure}[1.5][b]
+    \caption{A vantagem de usar gráficos é que eles facilitam muito a visualização do conjunto de dados}
+    \cite{grafico}
+    \includegraphics[width=0.3\textwidth]{grafico}
+\end{SCfigure}
+
+A estatística é usualmente subdividida em duas: a descritiva e a inferencial. A frente descritiva estuda como os dados brutos podem ser sumarizados em informações mais facilmente compreensíveis e comunicáveis, seja na forma de medidas numéricas (como a média e a variância) ou de métodos gráficos (Figura 1). Já a inferencial estabelece métodos confiáveis para generalizar em cima de populações inteiras, baseando-se apenas na análise de amostras apropriadamente coletadas.
+
+\section{Relevância}
+Existe uma forte relação mútua entre estatística e ciência da computação. Se, de um lado, o poder computacional trazido por esta fez com que aquela avançasse não apenas do ponto de vista técnico, como também do teórico \cite{lauro}, a primeira, por sua vez, foi responsável por firmar o sustentáculo metodológico que tornaria possíveis prodígios como a aprendizagem de máquina e a mineração de dados, dois dos mais relevantes campos de estudo da computação atual. Isso explica porque alguns autores, na verdade, acabam classificando mineração e aprendizagem como aplicações  da estatística: \textit{\say{Data analysis, machine learning and data mining are various names given to the practice of the statistical inference}} \cite{wasserman}.
+
+\section{Relação com outras disciplinas}
+\begin{tabu}{ | X[l] | X[l, 1.7] | }
+    \hline
+    \textbf{Disciplina relacionada} & \textbf{Explicação} \\
+    \hline
+    IF670: MATEMÁTICA DISCRETA PARA COMPUTAÇÃO & Cobre conceitos fundamentais ao estudo de probabilidades e das variáveis  aleatórias discretas, tais como teoria dos conjuntos, coeficientes binomiais e contagem \\
+    \hline
+    MA026: CÁLCULO DIFERENCIAL E INTEGRAL 1 & Ferramentas de cálculo, tais como derivadas, integrais, máximos e mínimos são de importância crucial para o trabalho com variáveis aleatórias contínuas e suas distribuições probabilísticas \\
+    \hline
+    IF699: APRENDIZAGEM DE MÁQUINA & Grande parte de seus algoritmos se baseiam em conceitos estatísticos, tais como variância, regressão linear e valor-p \\
+    \hline
+    IF795: SISTEMAS DE SUPORTE A DECIS. MIN. DADOS & Explora muitos métodos estatísticos avancados, e.g., regressão logística, classificação, \textit{bootstrapping}, entre outros \\
+    \hline
+\end{tabu}
+    \bibliographystyle{plain}
+    \bibliography{gff}
+\end{document}
