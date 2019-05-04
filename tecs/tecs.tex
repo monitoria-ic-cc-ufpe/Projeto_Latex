@@ -1,0 +1,68 @@
+\documentclass{article}[10pt]
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+
+\title{\textbf{IF743 - Segurança de Sistemas}}
+\author{Thayná Emilly Cavalcante Santos}
+\date{Maio 2019}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+
+\section{Introdução}
+\noindent
+
+Rede, do latim \textit{rete}, é uma estrutura que dispõe de um padrão característico. Uma rede de computadores, por conseguinte, é um conjunto destas máquinas onde cada um dos integrantes partilha informação, serviços e recursos uns com os outros.\citep{1} 
+
+A área de segurança de sistemas, por sua vez, nasceu da necessidade de proteger tais redes. Para isso, faz uso de múltiplas camadas de defesa a fim de proteger a usabilidade e a integridade de suas conexões - redes - e dados. A segurança de redes tradicionalmente inclui tecnologias de hardware e software e o gerenciamento do acesso, buscando impedir que uma variedade de ameaças se instale em sua rede.\citep{2}
+
+\section{Relevância}
+\noindent
+
+No contexto atual de um mundo globalizado, a segurança dos sistemas se faz cada vez mais necessária, haja vista que a necessidade de proteger as redes aumentou em consonância com o número de acessos à internet e com a quantidade de informações que são trocadas por segundo; sendo a perda de alguns desses dados um evento desastroso que pode levar muitas corporações a terem prejuízo e até irem à falência.
+
+No ambiente corporativo, o bem mais valioso é a informação. Dessa forma, os bancos de dados, relatórios, planilhas e outros diversos arquivos necessitam de um sistema de segurança em redes de qualidade para protegê-los contra possíveis ameaças.
+Algumas dessas ameaças são\citep{four}:
+ \begin{itemize}
+   \item \textbf{DoS - Denial  of  Service:} notificações  de  ataques  de  negação  de  serviço, onde  o  atacante  utiliza  um  computador  ou  um  conjunto  de  computadores  para tirar de operação um serviço, computador ou rede.
+   \item \textbf{Invasão:} é um  ataque  bem  sucedido  que  resulta  no  acesso  não autorizado  a  um computador ou rede.
+   \item \textbf{Fraude:} segundo o dicionário de Houaiss,  é ``qualquer  ato  ardiloso,  enganoso,  de  má-fé,  com intuito  de  lesar  ou  ludibriar  outrem,  ou  de  não  cumprir  determinado  dever; logro".  Esta  categoria  engloba  as  notificações  de  tentativas  de  fraudes,  ou  seja, de incidentes em que ocorre uma tentativa de obter vantagem. 
+ \end{itemize}
+
+Na figura abaixo pode-se acompanhar a evolução dessas ameaças ao longo dos anos, a qual demonstra que as ameaças relacionadas a problemas de segurança estão cada dia mais presentes.
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=0.18]{imagemic.png}
+\caption{Total de incidentes reportados ao CERT.br entre 1999 e 2018.\citep{3}}
+\label{Rotulo}
+\end{figure}
+
+\section{Relação com outras disciplinas}
+\begin{table}[h]
+\resizebox{12.1cm}{!}{
+\begin{tabular}{l|l}
+
+\textbf{Disciplinas}                                                                  & 
+\begin{tabular}[c]{@{}l@{}}\textbf{Motivo}\end{tabular}                 \\ \hline
+
+IF675 - Sistemas Digitais                                                             & 
+\begin{tabular}[c]{@{}l@{}}É vital para que a troca de informações que ocorre entre tais sistemas ocorra de forma segura.\end{tabular}                                                 \\ \hline
+
+ES268 - Criptografia                                                                  & \begin{tabular}[c]{@{}l@{}}É essencial na codificação de mensagens e parte do pressuposto de que a mensagem é encriptada \\ e decriptada utilizando uma chave única, de conhecimento somente das pessoas envolvidas na\\ transmissão.\end{tabular}\cite{four} \\ \hline
+IF738 - Redes de Computadores                                                         & \begin{tabular}[c]{@{}l@{}}É de suma importância para a existência da disciplina, pois é através das redes que as trocas de\\ informações acontecem.\end{tabular}                                                                                  \\ \hline
+
+IF670 - Matemática discreta p/ computação                                             & 
+\begin{tabular}[c]{@{}l@{}}É nessa disciplina onde os conceitos básicos sobre divisibilidade, números primos e criptografica RSA\\ são introduzidos. \end{tabular}                                                                                               \\ \hline
+\begin{tabular}[c]{@{}l@{}}IF685 - Gerenciamento de dados\\ e informação\end{tabular} &
+\begin{tabular}[c]{@{}l@{}}Além do gerenciamento de dados e informações, também é ensinada, nesta disciplina, a recuperação\\ de informações, algo que é necessário quando há perdas das mesmas.\citep{6}\end{tabular}                                     
+\end{tabular}}
+\end{table}
+
+
+\bibliographystyle{plain}
+\bibliography{tecs}
+\end{document}
