@@ -1,0 +1,61 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{IF674 - Infra-Estrutura de Hardware}
+\author{Daniel Victor Cintra Cavalcante}
+\date{May 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{Introdução}
+O Curso de Infra-Estrutura de Hardware  visa dar uma visão geral dos componentes de um computador, quais sejam: processador, sistema de memória (memória principal e memória cache), Entrada e Saída e Barramentos.  Nesta disciplina os princípios de funcionamentos de cada um dos componentes acima serão apresentados e o aluno terá possibilidade de sedimentar estes conceitos seja pelo projeto de uma versão simples do componente, ou seja pela simulação do mesmo através de ferramenta de simulação.
+
+\section{Relevância}
+A disciplina trabalha conceitos básico, o que caracteriza uma CPU, e o aluno terá a oportunidade de projetar uma CPU bem simples de forma a compreender melhor o seu funcionamento. Além dos conceitos básicos, serão apresentados conceitos avançados como pipeline e super-escalares, técnicas usadas nos processadores comerciais atuais e que garantem um grande aumento no desempenho da máquina. Os computadores estão cada dia mais presentes no nosso dia, como isso, a importância das disciplinas como infraestrutura de hardware e outras relacionadas veem aumentando cada dia mais, tornando-se importantes peças para o desenvolvimento tecnológico das maquinas.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.3]{MOS_Technologies_large}
+    \caption{6510 CPU (long chip, lower left) and the 6581 SID (right) - Licença - \cite{img}}
+    \end{figure}
+ \newline
+De uma forma geral, o objetivo é fazer com que o aluno passe a entender os diversos aspectos de projetos e implementação de computadores e use este conhecimento de forma a auxiliar em tarefas de sua vida profissional abrangendo desde a definição de computadores a comprar para uma determinada tarefa, até projetos de máquinas. 
+
+\newpage
+
+\section{Relação com outras disciplinas}
+Infraestrutura de Hardware faz parte da tríade software, hardware e comunicação, que é a base da construção de praticamente qualquer sistema de computação atual.
+
+\begin{table}[h]
+
+\centering
+
+\label{my-label}
+
+\begin{tabular}{|p{5cm}|p{7cm}|}
+
+\hline
+
+I-Estrutura de Software - IF677 & \begin{tabular}[c]{@{}p{7cm}@{}} O objetivo aqui é apresentar os conceitos e sistemas de software básicos de um computador, que compreende a introdução aos sistemas concorrentes e aos sistemas operacionais, sejam eles mono-computador ou distribuídos. \end{tabular}\\ \hline
+I-Estrutura de Hardware - IF674  & \begin{tabular}[c]{@{}p{7cm}@{}} O que se tem vista aqui, é a parte de componentes do computador, e o funcionamento de cada elemento. \end{tabular}\\ \hline
+I-Estrutura de Comunicação. - IF678  & \begin{tabular}[c]{@{}p{7cm}@{}} Trabalha o entendimento dos diversos aspectos de projetos e implementação de redes de computadores, além de como funcionam a internet e os diversos protocolos de comunicação existentes.  \end{tabular}\\ \hline
+\end{tabular}
+\end{table}
+Além de fazer parte desta tríade, a disciplina está fortemente ligada com Sistemas Digitais (IF675), que tem como objetivo dar ao aluno conhecimentos de circuitos lógicos digitais combinacionais e seqüenciais cobrindo desde dispositivos digitais de pequena complexidade SSI, até a implementação de circuitos de média complexidade MSI.
+
+\bibliographystyle{plain}
+\bibliography{references}
+\nocite{CO}
+\nocite{OP}
+\nocite{AO}
+\end{document}
